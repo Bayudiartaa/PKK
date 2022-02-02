@@ -1,0 +1,285 @@
+ERROR - 2022-01-27 11:18:12 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'db_fashion.data_transaksi.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-01-27 11:18:12 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'db_fashion.data_transaksi.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(35): CodeIgniter\Model->__call()
+#6 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(54): App\Controllers\Dashboard->getAllTransactionByStatus()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#8 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#12 {main}
+ERROR - 2022-01-27 11:19:07 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'db_fashion.data_transaksi.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-01-27 11:19:07 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'db_fashion.data_transaksi.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(35): CodeIgniter\Model->__call()
+#6 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(54): App\Controllers\Dashboard->getAllTransactionByStatus()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#8 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#12 {main}
+CRITICAL - 2022-01-27 11:24:58 --> Call to undefined method App\Controllers\Dashboard::getAllTransactionByStatus()
+#0 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#5 {main}
+CRITICAL - 2022-01-27 11:24:58 --> Call to undefined method App\Controllers\Dashboard::getAllTransactionByStatus()
+#0 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#5 {main}
+CRITICAL - 2022-01-27 11:25:09 --> Undefined variable: count
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}
+CRITICAL - 2022-01-27 11:25:10 --> Undefined variable: count
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}
+ERROR - 2022-01-27 11:25:37 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'db_fashion.data_transaksi.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2022-01-27 11:25:37 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'db_fashion.data_transaksi.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(35): CodeIgniter\Model->__call()
+#6 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(54): App\Controllers\Dashboard->getAllTransactionByStatus()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#8 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#12 {main}
+CRITICAL - 2022-01-27 14:37:29 --> unlink(assets/img/produk/1637072078_3534ee7278fc29178664.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard/Produk.php(246): unlink()
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard\Produk->hapusProduk()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#7 {main}
+CRITICAL - 2022-01-27 14:37:45 --> unlink(assets/img/produk/1637072539_09cc38022c04104e48a8.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard/Produk.php(246): unlink()
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard\Produk->hapusProduk()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#7 {main}
+CRITICAL - 2022-01-27 14:37:49 --> unlink(assets/img/produk/1637093563_80d8a40e7ec8bbd5ca42.jfif): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard/Produk.php(246): unlink()
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard\Produk->hapusProduk()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#7 {main}
+CRITICAL - 2022-01-27 14:37:58 --> unlink(assets/img/produk/1637915352_ce1fd09e12c527c48eba.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard/Produk.php(246): unlink()
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard\Produk->hapusProduk()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#7 {main}
+ERROR - 2022-01-27 18:51:49 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 18:52:32 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 18:54:28 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 18:54:40 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 18:58:54 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 19:00:28 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 19:01:37 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 19:02:43 --> Unknown table 'db_fashions.data_produk'
+ERROR - 2022-01-27 19:02:43 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2022-01-27 19:03:17 --> Unknown table 'db_fashions.data_produk'
+ERROR - 2022-01-27 19:03:17 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2022-01-27 19:03:53 --> Unknown table 'db_fashions.data_produk'
+ERROR - 2022-01-27 19:04:44 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 19:05:38 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 19:05:44 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2022-01-27 19:05:50 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 19:06:02 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 19:06:18 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-01-27 19:08:19 --> Unknown table 'db_fashions.data_produk'
+ERROR - 2022-01-27 19:10:11 --> Unknown table 'db_fashions.data_produk'
+ERROR - 2022-01-27 19:10:11 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2022-01-27 19:11:40 --> Table 'db_fashions.data_transaksi' doesn't exist
+CRITICAL - 2022-01-27 19:11:40 --> Table 'db_fashions.data_transaksi' doesn't exist
+#0 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(35): CodeIgniter\Model->__call()
+#6 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(54): App\Controllers\Dashboard->getAllTransactionByStatus()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#8 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#12 {main}
+CRITICAL - 2022-01-27 19:12:14 --> Undefined variable: count
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}
+CRITICAL - 2022-01-27 19:12:56 --> Undefined variable: count
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}
+CRITICAL - 2022-01-27 19:12:56 --> Undefined variable: count
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}
+CRITICAL - 2022-01-27 19:12:57 --> Undefined variable: count
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}
+CRITICAL - 2022-01-27 19:12:57 --> Undefined variable: count
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}
+CRITICAL - 2022-01-27 19:13:17 --> Undefined variable: recent_orders
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}
+CRITICAL - 2022-01-27 19:13:27 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#8 {main}
+CRITICAL - 2022-01-27 19:13:33 --> Undefined variable: rnd
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}
+CRITICAL - 2022-01-27 19:13:46 --> Undefined variable: order
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(97): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}
+CRITICAL - 2022-01-27 19:14:04 --> Undefined variable: trx_selesai
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}
+CRITICAL - 2022-01-27 19:14:16 --> Undefined variable: arrBulan
+#0 /home/bayu/Master/Tugas/fashion/app/Views/dashboard/index.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/bayu/Mast...')
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard.php(75): view()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#10 {main}

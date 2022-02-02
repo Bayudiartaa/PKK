@@ -1,0 +1,16 @@
+ERROR - 2022-02-02 13:06:26 --> Unknown column 'kategori' in 'field list'
+CRITICAL - 2022-02-02 13:06:26 --> Unknown column 'kategori' in 'field list'
+#0 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /home/bayu/Master/Tugas/fashion/app/Controllers/Dashboard/Produk.php(197): CodeIgniter\Model->insert()
+#8 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dashboard\Produk->save()
+#9 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/bayu/Master/Tugas/fashion/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /home/bayu/Master/Tugas/fashion/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/bayu/Mast...')
+#13 {main}
